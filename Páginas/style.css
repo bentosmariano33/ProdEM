@@ -1,0 +1,10 @@
+.header{
+    border: solid black 2px;
+    background-color: green;
+}
+
+.Nav{
+    border: solid black 2px;
+    background-color: greenyellow;
+    margin-top: 100px;
+}
