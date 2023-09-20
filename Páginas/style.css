@@ -1,10 +1,32 @@
 .header{
-    border: solid black 2px;
+    border: solid black 3px;
     background-color: green;
 }
 
 .Nav{
+    height: 60px;
     border: solid black 2px;
     background-color: greenyellow;
     margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 18px;
 }
