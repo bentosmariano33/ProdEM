@@ -1,33 +1,39 @@
-body{
+.Body_index{
     background-color: #006400;
-    background-image: url(/Imagenes/Campo_de_fut.jpg);
-    position:static;
+    background-image: url(/Imagenes/Futbol.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header{
-    border: solid black 3px;
-    background-color: #20603d;
+    background-image: url(/Imagenes/Header_definitivo.jpg);
+    background-position: center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #logo{
-    margin: auto;
-    height: 70px;
-    width: 320px;
-    text-align: center;
-    background-color:#20603d ;
+    height: 100px;
+    width: 500px;
+    text-align: left;
 }
 
 #logo h1{
     font-family: "Pacifico", cursive;
     font-size: 45px;
-    background-color:#20603d;
+}
+
+#logo img{
+    width: 250px;
+    height: 156px;
 }
 
 Nav{
     height: 60px;
-    background-color: #287233;
     margin-top: 50px;
-    padding-top: 20px;
     padding-bottom: 10px;
     font-family: cursive;
     text-align: center;
@@ -36,20 +42,17 @@ Nav{
 nav ul{
     list-style: none;
     display: inline-block;
-    background-color: #287233;
 }
 
 nav ul li{
     padding: 10px;
     float: left;
-    background-color: #287233;
 }
 
 nav ul li a{
-    color: aliceblue;
+    color: black;
     font-weight: bold;
     text-decoration: none;
-    font-size: 20px;
-    background-color: #287233;
+    font-size: 30px;
 }
 
