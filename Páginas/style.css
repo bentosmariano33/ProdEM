@@ -1,0 +1,78 @@
+.Body_index{
+    background-color: #006400;
+    background-image: url(/Imagenes/Futbol.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    background-image: url(/Imagenes/Header_definitivo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    height: 100px;
+    width: 500px;
+    text-align: left;
+}
+
+#logo h1{
+    font-family: "Pacifico", cursive;
+    font-size: 45px;
+}
+
+#logo img{
+    width: 250px;
+    height: 156px;
+}
+
+Nav{
+    height: 60px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li{
+    padding: 10px;
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.Seccion_index{
+    display: flex;
+    flex-direction: row;
+}
+
+.Proximos_partidos{
+    margin-top: 100px;
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 1px black;
+}
+
+.Fixture_index{
+    margin-top: 100px;
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 1px black;
+}
+
