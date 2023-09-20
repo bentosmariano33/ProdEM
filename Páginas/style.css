@@ -1,13 +1,28 @@
-.header{
-    border: solid black 3px;
-    background-color: green;
+body{
+    background-color: #006400;
 }
 
-.Nav{
+.header{
+    border: solid black 3px;
+    background-color: #20603d;
+}
+
+#logo{
+    margin: auto;
+    height: 70px;
+    width: 320px;
+    text-align: center;
+}
+
+#logo h1{
+    font-family: "Pacifico", cursive;
+    font-size: 45px;
+}
+
+Nav{
     height: 60px;
-    border: solid black 2px;
-    background-color: greenyellow;
-    margin-top: 100px;
+    background-color: #287233;
+    margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 10px;
     font-family: cursive;
