@@ -10,7 +10,6 @@
 .header{
     background-image: url(/Imagenes/Header_definitivo.jpg);
     background-position: center;
-
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -54,5 +53,26 @@ nav ul li a{
     font-weight: bold;
     text-decoration: none;
     font-size: 30px;
+}
+
+.Seccion_index{
+    display: flex;
+    flex-direction: row;
+}
+
+.Proximos_partidos{
+    margin-top: 100px;
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 1px black;
+}
+
+.Fixture_index{
+    margin-top: 100px;
+    margin-left: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: solid 1px black;
 }
 
