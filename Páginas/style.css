@@ -65,7 +65,30 @@ nav ul li a{
     margin-left: 300px;
     padding-left: 50px;
     padding-right: 50px;
-    border: solid 1px black;
+    padding-top: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.Proximos_partidos p{
+    text-align: center;
+}
+
+.Partidos{
+    border: 2px solid black;
+    margin-top: 15px;
+    padding: 0px;
+    width: 500px;
+}
+
+.Partidos tr{
+    border: 2px solid black;
+}
+
+.Partidos td{
+    border: 2px solid black;
+    text-align:center;
+    background-color: rgb(38, 37, 37);
 }
 
 .Fixture_index{
