@@ -89,6 +89,7 @@ nav ul li a{
     border: 2px solid black;
     text-align:center;
     background-color: rgb(38, 37, 37);
+    padding: 10px;
 }
 
 .Fixture_index{
