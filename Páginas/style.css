@@ -99,7 +99,7 @@ nav ul li a{
     border-radius: 10px;
     text-align:center;
     background-color: rgb(38, 37, 37);
-    padding: 5px;
+    padding: 5px;  /*Corregir los paddings*/
 }
 
 .Fixture_index{
