@@ -40,29 +40,10 @@ header nav div a{
     height: 156px;
 }
 
+
 Nav{
-    height: 60px;
-    margin-top: 50px;
-    padding-bottom: 10px;
-    font-family: cursive;
-    text-align: center;
-}
-
-nav ul{
-    list-style: none;
-    display: inline-block;
-}
-
-nav ul li{
-    padding: 10px;
-    float: left;
-}
-
-nav ul li a{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 30px;
+    background-size: cover;
+    background-image: inherit;
 }
 
 .Seccion_index{
