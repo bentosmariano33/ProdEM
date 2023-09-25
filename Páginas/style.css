@@ -48,15 +48,13 @@ Nav{
 
 .Seccion_index{
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
 }
 
 .Proximos_partidos{
-    margin-top: 200px;
-    margin-left: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 15px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     color: aliceblue;
 }
@@ -66,11 +64,10 @@ Nav{
 }
 
 .Partidos{
-    margin-top: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 50px;
-    width: 500px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .Partidos tr{
@@ -83,16 +80,17 @@ Nav{
     border-radius: 10px;
     text-align:center;
     background-color: rgb(38, 37, 37);
-    padding: 26px;  /*Corregir los paddings*/
+    padding-right: 25vh;
+    padding-left: 10vh;
 }
 
 .Fixture_index{
-    margin-top: 20px;
-    margin-left: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 1vh;
+    padding-right: 5.5vh;
     text-align: center;
     color: aliceblue;
     font-size: 20px;
@@ -100,7 +98,6 @@ Nav{
 
 h3{
     padding-top: 40px;
-    text-align: center;
 }
 
 
