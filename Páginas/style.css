@@ -52,7 +52,7 @@ Nav{
 }
 
 .Proximos_partidos{
-    margin-top: 20px;
+    margin-top: 200px;
     margin-left: 100px;
     padding-left: 50px;
     padding-right: 50px;
@@ -67,7 +67,9 @@ Nav{
 
 .Partidos{
     margin-top: 15px;
-    padding: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
     width: 500px;
 }
 
@@ -76,11 +78,12 @@ Nav{
 }
 
 .Partidos td{
+    color: aliceblue;
     border: 2px solid black;
     border-radius: 10px;
     text-align:center;
     background-color: rgb(38, 37, 37);
-    padding: 5px;  /*Corregir los paddings*/
+    padding: 26px;  /*Corregir los paddings*/
 }
 
 .Fixture_index{
