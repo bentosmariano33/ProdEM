@@ -3,9 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Ayuda</title>
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="navbar bg-body-tertiary">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="/Imagenes/logo2.png"
+                  alt="Bootstrap"
+                  width="120"
+                  height="120"
+                />
+              </a>
+              <div class="botonera">
+                <a href="index.html" style="text-decoration: none;">
+                    <button type="button" class="btn btn-primary">Inicio</button>
+                </a>
+                <a href="Torneos.html" style="text-decoration: none;">
+                    <button type="button" class="btn btn-primary">Torneos</button>
+                </a>
+                <a href="Tabla_posiciones.html" style="text-decoration: none;">
+                    <button type="button" class="btn btn-primary">Tabla de posiciones</button>
+                </a>
+                <a href="Ayuda.html" style="text-decoration: none;">
+                    <button type="button" class="btn btn-info">Ayuda</button>
+                </a>
+              </div>
+            </div>
+        </nav>
+    </header>
+    <section class="ayuda">
+        <h1>Bienvenido a <b>ProdEM!</b></h1>
+        <h5>El sitio donde jugás y pronosticar los resultados de diferentes torneos de futbol, locales e internacionales. ¡Divertite y competí con tus amigos!</h5>
+        <br><br><br>
+        <hr>
+        <h1><b>¿Cómo jugar ProdEM?</b></h1>
+        <div class="comoJugar">
+            <div class="ayuda1">
+                <h1>1</h1>
+                <p>Dentro de <a href="Torneos.html" style="text-decoration: none; color: black;"><b>Torneos</b></a>, elegí la competencia donde querés participar</p>
+            </div>
+            <div class="ayuda1">
+                <h1>2</h1>
+                <p>Podes jugar con tus amigos, o unirte al torneo ya creado</p>
+            </div>
+            <div class="ayuda1">
+                <h1>3</h1>
+                <p>Completá tus pronósticos hasta 15 minutos antes del comienzo de cada partido. De lo contrario no serán válidos</p>
+            </div>
+            <div class="ayuda1">
+                <h1>4</h1>
+                <p>Finalizados los partidos se actualizarán los puntajes en <a href="Tabla_posiciones.html" style="text-decoration: none; color: black;"><b>Tabla de posiciones</b></a> en base a los aciertos.</p>
+            </div>
+        </div>
+    </section>
 </body>
+<footer class="footer">
+    <div class="seccion1">
+      <h2>Secciones</h2>
+      <a href="index.html" style="text-decoration: none; color: white;">Inicio</a><br>
+      <a href="Torneos.html" style="text-decoration: none; color: white;">Torneos</a><br>
+      <a href="" style="text-decoration: none; color: white;">Participar</a><br>
+      <a href="Tabla_posiciones.html" style="text-decoration: none; color: white;">Tabla de posiciones</a><br>
+      <a href="Ayuda.html" style="text-decoration: none; color: white;">Ayuda</a>
+    </div>
+    <div class="seccion2">
+        <h2>Participá de nuestros torneos</h2>
+        <div class="d-grid gap-2">
+            <a href="Torneos.html" style="text-decoration: none;">
+            <button class="btn btn-primary" type="button">Participá en el torneo</button>
+            </a>
+        </div>
+    </div>
+</footer>
 </html>

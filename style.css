@@ -156,5 +156,32 @@ h3{
 }
 
 
+/*-----------------------------------------------Seccion Ayuda------------------------------------------------------*/
+
+.ayuda{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #c1ff72;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.comoJugar{
+    display: flex;
+    flex-direction: row;
+}
+
+.comoJugar{
+    text-align: center;
+    font-size: 30px;
+    padding: 10vh;
+    margin-bottom: 1vh;
+}
+
+.ayuda1{
+    margin-left: 7vh;
+}
 
   
