@@ -52,6 +52,7 @@ Nav{
 }
 
 .Proximos_partidos{
+    margin-top: 30px;
     max-width: 100%;
     width: auto;
     height: auto;
@@ -101,5 +102,6 @@ h3{
 }
 
 .botonParticipa{
-    width: 100%;
+    position: fixed;
+    z-index: 99;
 }
