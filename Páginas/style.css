@@ -40,42 +40,22 @@ header nav div a{
     height: 156px;
 }
 
+
 Nav{
-    height: 60px;
-    margin-top: 50px;
-    padding-bottom: 10px;
-    font-family: cursive;
-    text-align: center;
-}
-
-nav ul{
-    list-style: none;
-    display: inline-block;
-}
-
-nav ul li{
-    padding: 10px;
-    float: left;
-}
-
-nav ul li a{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 30px;
+    background-size: cover;
+    background-image: inherit;
 }
 
 .Seccion_index{
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
 }
 
 .Proximos_partidos{
-    margin-top: 100px;
-    margin-left: 100px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 15px;
+    margin-top: 30px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     color: aliceblue;
 }
@@ -85,9 +65,10 @@ nav ul li a{
 }
 
 .Partidos{
-    margin-top: 15px;
-    padding: 0px;
-    width: 500px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
 }
 
 .Partidos tr{
@@ -95,23 +76,85 @@ nav ul li a{
 }
 
 .Partidos td{
+    color: aliceblue;
     border: 2px solid black;
     border-radius: 10px;
     text-align:center;
     background-color: rgb(38, 37, 37);
-    padding: 5px;  /*Corregir los paddings*/
+    padding-right: 25vh;
+    padding-left: 10vh;
 }
 
 .Fixture_index{
-    margin-top: 100px;
-    margin-left: 300px;
+    margin-top: 30px;
+    margin-left: 50px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 1vh;
+    padding-right: 5.5vh;
     text-align: center;
     color: aliceblue;
     font-size: 20px;
 }
 
+h3{
+    padding-top: 40px;
+}
 
+.botonParticipa{
+    position: fixed;
+    z-index: 99;
+    -webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
+}
+
+/*Gira el botón*/
+@-webkit-keyframes rotate-scale-up{
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-image: url(/Imagenes/Header_definitivo.jpg);
+}
+
+.seccion1{
+    color: white;
+    padding-left: 30vh;
+}
+
+
+.seccion2{
+    color: white;
+    padding-left: 55vh;
+}
+
+
+
+  
