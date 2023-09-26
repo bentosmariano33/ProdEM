@@ -105,3 +105,20 @@ h3{
     position: fixed;
     z-index: 99;
 }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-image: url(/Imagenes/Header_definitivo.jpg);
+}
+
+.seccion1{
+    color: white;
+    padding-left: 30vh;
+}
+
+
+.seccion2{
+    color: white;
+    padding-left: 55vh;
+}
