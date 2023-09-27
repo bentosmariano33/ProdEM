@@ -152,9 +152,27 @@ h3{
 
 .seccion2{
     color: white;
-    padding-left: 55vh;
+    padding-left: 105vh;
 }
 
+/*Botón flecha*/
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    display: none; /* Inicialmente oculto */
+}
+
+#scroll-to-top a {
+    text-decoration: none;
+    color: inherit;
+}
 
 /*-----------------------------------------------Seccion Ayuda------------------------------------------------------*/
 
